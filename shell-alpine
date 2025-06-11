@@ -1,0 +1,5 @@
+docker run --rm -it --name hugo-alpine \
+  -v $(pwd):/src \
+  -p 8080:8080 \
+  klakegg/hugo:0.101.0-alpine \
+  shell
