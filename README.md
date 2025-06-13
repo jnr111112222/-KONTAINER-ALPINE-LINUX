@@ -28,3 +28,14 @@ NB: jika gagal runlevel install openrc terlebih dahulu
 ```
 apk add openrc
 ```
+### start docker 
+```
+service docker start
+```
+NB : untuk mengaktifkan dorkernya 
+
+### stop docker 
+```
+service docker stop
+```
+NB : jika ingin berhentikan service docker
